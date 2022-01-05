@@ -1,13 +1,12 @@
-/* body {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-} */
+body {
+  padding: 2em 18em;
+}
 
 nav {
   background-color: #776885;
   padding: 2em 0em;
   color: white;
+  padding: 2em;
 }
 
 section {
@@ -15,27 +14,26 @@ section {
 }
 
 .avatar {
-  width: 10%;
+  width: 24%;
   height: auto;
   border-radius: 50%;
 }
 
 #title {
+  background-image: url('./forest2.png');
   text-align: center;
-  background-color: #B8C794;
   color: white;
 }
 
 #intro {
   text-align: center;
-  background-color: #DBD2E0;
-  padding: 2em 15em;
+  background-color: rgb(243, 240, 245);
 }
 
 #about {
   display: flex;
   justify-content: center;
-  background-color: #B8C794;
+  background-color: white;
 }
 
 .about-p {
@@ -45,8 +43,7 @@ section {
 #div-left {
   display: flex;
   flex-direction: column;
-  background-color: #776885;
-  padding: 2em; 
+  background-color: white;
   width: 50%;
 }
 
@@ -57,14 +54,42 @@ section {
 
 #div-right {
   text-align: center;
-  background-color: #DBD2E0; 
+  background-color: rgb(243, 240, 245);
   width: 50%;
 }
 
 #tech {
+  display: flex;
+  flex-direction: column;
   text-align: center;
-  background-color: #636F20;
+  color: white;
+  background-color: #B8C794;
 }
+
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #B8C794;
+}
+
+.tech-cards-left {
+  color: black;
+}
+
+.tech-cards-right {
+  color: black;
+}
+
+.card {
+  width: 22em;
+  height: auto;
+  padding: 1em;
+  border-radius: 2em;
+  background-color: white;
+  margin: 20px;
+}
+
 
 footer {
   text-align: center;
