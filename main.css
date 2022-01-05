@@ -1,39 +1,74 @@
-body {
+/* body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-}
+} */
 
 nav {
   background-color: #776885;
   padding: 2em 0em;
   color: white;
-
 }
 
+section {
+  padding: 2em 2em;
+}
 
 .avatar {
-  vertical-align: middle;
   width: 10%;
   height: auto;
   border-radius: 50%;
 }
 
+#title {
+  text-align: center;
+  background-color: #B8C794;
+  color: white;
+}
+
 #intro {
+  text-align: center;
   background-color: #DBD2E0;
+  padding: 2em 15em;
 }
 
 #about {
   display: flex;
-  flex-direction: row;
+  justify-content: center;
   background-color: #B8C794;
 }
 
+.about-p {
+  padding: 2em 10em;
+}
+
+#div-left {
+  display: flex;
+  flex-direction: column;
+  background-color: #776885;
+  padding: 2em; 
+  width: 50%;
+}
+
+.project-img {
+  width: 50%;
+  height: auto;
+}
+
+#div-right {
+  text-align: center;
+  background-color: #DBD2E0; 
+  width: 50%;
+}
+
 #tech {
+  text-align: center;
   background-color: #636F20;
 }
 
 footer {
+  text-align: center;
   background-color: #776885;
   color: white;
+  padding: 2em 0em;
 }
