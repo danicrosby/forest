@@ -1,6 +1,39 @@
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+nav {
+  background-color: #776885;
+  padding: 2em 0em;
+  color: white;
+
+}
+
+
 .avatar {
   vertical-align: middle;
-  width: 100px;
-  height: 100px;
+  width: 10%;
+  height: auto;
   border-radius: 50%;
+}
+
+#intro {
+  background-color: #DBD2E0;
+}
+
+#about {
+  display: flex;
+  flex-direction: row;
+  background-color: #B8C794;
+}
+
+#tech {
+  background-color: #636F20;
+}
+
+footer {
+  background-color: #776885;
+  color: white;
 }
