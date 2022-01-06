@@ -109,7 +109,7 @@ a.button:hover {
 }
 
 .project-img {
-  width: 50%;
+  width: 80%;
   height: auto;
 }
 
@@ -153,6 +153,7 @@ a.button:hover {
 
 
 footer {
+  display: block;
   text-align: center;
   background-color: #776885;
   color: white;
