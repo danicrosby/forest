@@ -1,5 +1,9 @@
+/* fonts 
+font-family: 'Roboto', sans-serif; */
+
 body {
   padding: 2em 18em;
+  font-family: 'Roboto', sans-serif;
 }
 
 nav {
@@ -20,7 +24,7 @@ section {
 }
 
 #title {
-  background-image: url('./forest2.png');
+  background-image: url('./images/forest.png');
   background-size: cover;
   text-align: center;
   color: white;
@@ -28,7 +32,7 @@ section {
 
 #intro {
   text-align: center;
-  background-color: rgb(243, 240, 245);
+  background-color: rgb(247, 247, 247);
 }
 
 .bouncy {
@@ -92,6 +96,11 @@ a.button:hover {
   }
 }
 
+.intro-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 4em;
+}
+
 #about {
   display: flex;
   justify-content: center;
@@ -116,7 +125,7 @@ a.button:hover {
 
 #div-right {
   text-align: center;
-  background-color: rgb(243, 240, 245);
+  background-color: rgb(247, 247, 247);
   width: 50%;
 }
 
