@@ -2,15 +2,28 @@
 font-family: 'Roboto', sans-serif; */
 
 body {
-  padding: 2em 18em;
+  padding: 1em 18em;
   font-family: 'Roboto', sans-serif;
 }
 
 nav {
-  background-color: #776885;
-  padding: 2em 0em;
   color: white;
-  padding: 2em;
+  padding: 1em;
+}
+
+.logo {
+  margin-left:2em;
+  color: lightgrey;
+  font-size: 1.5em;
+}
+
+.hamburger-menu {
+  float: right;
+}
+
+.hamburger-menu-icon {
+  width: 2em;
+  margin-right: 2em;
 }
 
 section {
@@ -33,6 +46,12 @@ section {
 #intro {
   text-align: center;
   background-color: rgb(247, 247, 247);
+}
+
+/* A fun bouncy button I learned */
+
+b2 {
+  margin-top: 3em;
 }
 
 .bouncy {
@@ -99,6 +118,7 @@ a.button:hover {
 .intro-title {
   font-family: 'Roboto', sans-serif;
   font-size: 4em;
+  margin: 0em;
 }
 
 #about {
@@ -129,6 +149,15 @@ a.button:hover {
   width: 50%;
 }
 
+.right-content {
+  padding-top: 4em;
+}
+
+.right-p {
+  font-size: 2em;
+  font-weight: bolder;
+}
+
 #tech {
   display: flex;
   flex-direction: column;
@@ -153,12 +182,21 @@ a.button:hover {
 }
 
 .card {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
   width: 22em;
   height: auto;
-  padding: 1em;
-  border-radius: 2em;
+  border-radius: 1em;
   background-color: white;
   margin: 20px;
+  padding-right: .8em;
+}
+
+.checkmark {
+  width: 1.2em;
+  height: 1.2em;
+  padding: 1.2em;
 }
 
 
