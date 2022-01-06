@@ -1,10 +1,15 @@
 /* fonts 
-font-family: 'Roboto', sans-serif; */
+font-family: 'Roboto', sans-serif; 
+font-family: 'Hind', sans-serif;
+font-family: 'Roboto', sans-serif;*/
 
 body {
   padding: 1em 18em;
   font-family: 'Roboto', sans-serif;
 }
+
+.content {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;}
 
 nav {
   color: white;
@@ -48,11 +53,18 @@ section {
   background-color: rgb(247, 247, 247);
 }
 
+h2, h3, h5 {
+  font-family: 'Hind', sans-serif;
+}
+
+h5 {
+  font-family: 'Hind', sans-serif;
+  letter-spacing: .2em;
+}
+
+
 /* A fun bouncy button I learned */
 
-b2 {
-  margin-top: 3em;
-}
 
 .bouncy {
   animation: bouncy 5s infinite linear;
@@ -150,12 +162,18 @@ a.button:hover {
 }
 
 .right-content {
-  padding-top: 4em;
+  padding-top: 1.5em;
 }
 
 .right-p {
+  font-family: 'Hind', sans-serif;
   font-size: 2em;
   font-weight: bolder;
+}
+
+.right-p2 {
+  font-family: 'Hind', sans-serif;
+  margin-bottom: 2.5em;
 }
 
 #tech {
@@ -205,5 +223,7 @@ footer {
   text-align: center;
   background-color: #776885;
   color: white;
-  padding: 2em 0em;
+  padding: 1em 0em;
+  font-size: 12px;
+  opacity: .6;
 }
