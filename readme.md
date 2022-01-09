@@ -10,14 +10,7 @@
 
 
 ### Project Screenshot
-
-<img width="837" alt="Screen Shot 2022-01-06 at 3 01 55 PM" src="https://user-images.githubusercontent.com/68397076/148451507-e258e03a-708c-4058-9cdb-25c10f0e1547.png">
-
-
-<img width="801" alt="Screen Shot 2022-01-06 at 3 02 20 PM" src="https://user-images.githubusercontent.com/68397076/148451551-f6a16eb6-df90-418e-8893-c4bf4c4db1dd.png">
-
-
-<img width="797" alt="Screen Shot 2022-01-06 at 3 02 36 PM" src="https://user-images.githubusercontent.com/68397076/148451592-3cec45bb-1c08-44c0-8d86-ae316dcc1915.png">
+<img width="797" alt="" src="./images/side-by-side.png">
 
 
 ## Contributors
@@ -27,5 +20,3 @@
 #### Photo & Design Credits: 
 - [Filip Zrnzević: Banner Image](https://unsplash.com/@filipz)
 - [Federico Bottos: Content Photo 1](https://unsplash.com/@landscapeplaces)
-
-
